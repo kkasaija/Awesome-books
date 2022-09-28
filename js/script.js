@@ -93,3 +93,53 @@ document.querySelector('.books').addEventListener('click', (e) => {
     UI.deleteBook(e.target);
   }
 });
+
+// Navigation bar
+const navLink = document.getElementsByClassName('navBar__link--item');
+[...navLink].forEach((link, index) => {
+  link.addEventListener('click', () => {
+    // List
+    if (index === 0) {
+      document.getElementById('store').classList.add('display-block');
+      document.getElementById('store').classList.remove('display-none');
+
+      document.getElementById('bookForm').classList.add('display-none');
+      document.getElementById('bookForm').classList.remove('display-flex');
+      document.getElementById('bookForm').classList.remove('display-block');
+
+      document.getElementById('contact').classList.add('display-none');
+      document.getElementById('contact').classList.remove('display-block');
+      document.getElementById('contact').classList.remove('display-flex');
+    }
+    if (index === 1) {
+      document.getElementById('store').classList.remove('display-block');
+      document.getElementById('store').classList.remove('display-flex');
+      document.getElementById('store').classList.add('display-none');
+
+      document.getElementById('bookForm').classList.add('display-flex');
+      document.getElementById('bookForm').classList.remove('display-none');
+
+      document.getElementById('contact').classList.add('display-none');
+      document.getElementById('contact').classList.remove('display-flex');
+      document.getElementById('contact').classList.remove('display-block');
+    }
+    if (index === 2) {
+      document.getElementById('store').classList.add('display-none');
+      document.getElementById('store').classList.remove('display-block');
+      document.getElementById('store').classList.remove('display-flex');
+
+      document.getElementById('bookForm').classList.add('display-none');
+      document.getElementById('bookForm').classList.remove('display-flex');
+      document.getElementById('bookForm').classList.remove('display-block');
+
+      document.getElementById('contact').classList.add('display-block');
+      document.getElementById('contact').classList.remove('display-none');
+    }
+  });
+});
+
+// Add Time and Date
+const date = new Date();
+const n = date.toDateString();
+const time = date.toLocaleTimeString();
+document.getElementsByClassName('time')[0].innerText = `${n} , ${time}`;

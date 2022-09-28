@@ -33,3 +33,16 @@
   background: var(--dark-grey);
   margin: 15px 0;
 }
+
+/* Display */
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}

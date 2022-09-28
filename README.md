@@ -6,13 +6,17 @@
 
 #### Milestone completed:
 
-- [x] Add plain HTML for Book Store.
+[x] Add plain HTML for Book Store.
 - [x] Add array for book collection.
 - [x] Add function to add a new book to the collection.
 - [x] Add function to remove a book from the collection.
 - [x] Display books stored in the array.
 - [x] Add local storage functionality.
 - [x] Add CSS styles to the application.
+- [x] Add live time and date.
+- [x] Add `Contact Us`.
+- [x] Add `Navigation bar`.
+- [x] Dynamically switch pages via js.
 
 ## Language Used
 
