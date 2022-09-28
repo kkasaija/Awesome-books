@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awesome-books</title>
-    <link rel="stylesheet" href="awesomebook.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <header>
-        <nav>
-          <h4 class="logo">Awesome Book</h4>
-          <ul>
-            <li class="listBtn">List</li>
-            <li class="add-new-btn">Add new</li>
-            
-          </ul>
-        </nav>
-      </header>
-      <div id="current-date"></div>
-      <div class="book-list-container">
-        <h1>All Awesome books</h1>
-        <div id="book-list"></div>
-      </div>
 
-      <div class="form-container">
-        <h1 class="add-text">Add a new book</h1>
-        <hr class="hr" />
-        <br />
-        <form id="book-form">
-          <input type="text" required placeholder="Title" id="title" /><br />
-          <input type="text" required placeholder="author" id="author" /><br />
-          <button id="add-button" type="submit">Add</button>
-        </form>
-      </div>
-  <section class="contact-info">
-        <h1>Add the Title and Author of the book.</h1>
-        <p>You can delete also book from the list.</p>
-  </section> 
-      <footer>
-        <p>This is <b>AwesomeBookList</b> made by <b>Linda</b> and <b>Tanusri</b>.</p>
-      </footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/utilise.css">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <div class="store">
+    <div class="store__header">
+      <h1 class="store--heading">Awesome Books</h1>
     </div>
 
-    <script src="book.js"></script>
-  </body>
+    <div class="books"></div>
+
+    <div class="dark-line"></div>
+
+    <form class="bookForm">
+      <h2 class="bookForm__heading">Add a new book</h2>
+      <input class="bookForm__input title" type="text" name="title" id="title" placeholder="Title" required/>
+      <input class="bookForm__input author" type="text" id="author" name="author" placeholder="Author" required />
+      <button class="btn btnAdd"  type="submit">Add</button>
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+:root {
+  --light-grey: #e4e4e4;
+  --dark-grey: #131313;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Body */
+.store {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 0;
+}
+
+.store--heading {
+  font-family: bubblegum, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* Book List */
+.books {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  justify-content: center;
+  border: var(--dark-grey) solid 3px;
+}
+
+.newBook {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bookDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: inherit;
+  gap: 80px;
+  padding: 8px 15px 8px 8px;
+}
+
+.bookTitleAuthor {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+/* Add book */
+
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 40%;
+}
+
+.bookForm__heading {
+  font-family: bubblegum, sans-serif;
+  align-self: center;
+}
+
+.bookForm__input {
+  padding: 4px 8px;
+  border: 3px solid var(--dark-grey);
+}
+
+.btnAdd {
+  align-self: flex-end;
+}
