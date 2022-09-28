@@ -21,7 +21,7 @@
 - JS
 
 ## Live Demo
-> [Click here for live preview](https://umerzia.github.io/Awesome-books/)
+> [Click here for live preview](https://kasaija-kenneth.github.io/)
 
 
 ## Getting Started
@@ -43,13 +43,6 @@
 - Have basic level knowledge about the working of website
 
 ## Author
-
-#### Masouma Modarresi
-
-> [GitHub](https://github.com/masouma2020)
-
-> [LinkedIn](https://www.linkedin.com/in/masouma-m-9572a41b5/)
-
 #### Kasaija Kenneth
 
 > [Github](https://github.com/Kasaija-Kenneth)
@@ -58,19 +51,11 @@
 
 > [LinkedIn](https://linkedin.com/in/kenneth-k-310722234)
 
-#### Umer Zia
-
-> [GitHub](https://github.com/UmerZia)
-
-> [Twitter](https://twitter.com/InfinusDesign)
-
-> [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/UmerZia/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/Kasaija-Kenneth/Awesome-books/issues).
 
 ## Show your support
 
@@ -82,4 +67,4 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
-- This project is [GENERAL PUBLIC LICENSE](https://github.com/UmerZia/Awesome-books/blob/plain-js/LICENSE).
+- This project is [GENERAL PUBLIC LICENSE](https://github.com/Kasaija-Kenneth/Awesome-books/blob/bookstore/LICENSE).
